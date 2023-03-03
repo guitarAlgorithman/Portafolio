@@ -3,14 +3,16 @@ import React from 'react'
 function Resumen() {
   return (
     <div>
-        <p>
-          Industrial Civil Engineer with experience in Banking, Public Transportation and Mining. My carrer is focused on Contract Management, Operation Research models development, Project and Business Valuations, 
-          Negotiations and Consulting.
-        </p>
-        <p></p>
-        <p>My IT skills are focusing on Data science (Tensorflow, Keras, RapidMiner), Programming (Python, Javascript, C/C++), App Frontend and Backend Development (React, Django, Fast API, Express), and 
-          Databases (MongoDB, SQL Server, PostgresQl) and Platform for deploying (Railway app, Amazon AWS, Google Cloud)  </p>
-          <p></p>
+      <h4>About me..</h4>
+        <p align="justify">
+          Industrial Civil Engineer with experience in Banking, Public Transportation and Mining. 
+          My carrer is focused on Contract Management, Operation Research models development, 
+          Project and Business Valuations, 
+          Negotiations and Consulting. I´d had leadered IT Teams, worked in high value and confindential contracts, participated in negotations with the goverment and in mining companies. </p>
+        <p align="justify">My IT skills are focus on Data science (Tensorflow, Keras, RapidMiner), 
+          Programming (Python, R, Javascript, Typescript, C/C++), rontend and Backend Apps Development (React, Django, Fast API, Express), and 
+          Databases (MongoDB, SQL Server, PostgresQl), Optimization software (Gurobi, Cplex) and Platform for deploying (Railway app, Amazon AWS, Google Cloud)  </p>
+        <p align="justify">My hobbies are go to the gym, play the guitar and study a lot about new trends in techonology and arts.</p>
     </div>
   )
 }

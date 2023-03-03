@@ -6,6 +6,8 @@ import Item from "./Item";
 import Experiencia from "./Experiencia";
 import Imagen from "./Imagen";
 import Resumen from "./Resumen";
+import ProfesionalStudies from "./ProfesionalStudies";
+import Datos from "./Datos";
 
 
 function CV() {
@@ -26,11 +28,14 @@ function CV() {
         </Item>
 
         <Item sx={{ gridColumn: "2/4", gridRow: "1 / 8" }}>
-<Resumen/>
+          <Datos/>
+        <ProfesionalStudies/>
+
         </Item>
       </Box>
       <Box style={{ width: "100%" }}>
-        <h2>Professional Experience</h2>
+
+      <Resumen/>
       <Experiencia />
       </Box>
 

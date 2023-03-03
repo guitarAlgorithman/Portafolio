@@ -18,15 +18,16 @@ function createData(
 }
 
 const rows = [
-  createData('Central Bank of Chile', '2021-05-01', 'Complaince Analyst', 'Banking, Contracts, Treasury, Riks',''),
-  createData('Ripp Consulting', '2019-09-01', 'Data Scientist', 'Mining, AI, RAM, Programming',''),
-  createData('STP Santiago S.A.', '2014-05-01 2021-04-30', 'Deputy IT and Controller Manager', 'Public Transportation, IT, Contracts',''),
-  createData('Latam Airlines S.A.', '2012-06-01 2014-02-28', 'Consultant', 'Air Transportation, Optimization, Programming',''),
+  createData('Central Bank of Chile', '2021-05-01', 'Complaince Analyst', 'Banking, Contracts, Treasury, Risk Management',''),
+  createData('Ripp Consulting', '2019-09-01', 'Data Scientist', 'Mining, AI, Reliability, R.A.M., Programming',''),
+  createData('STP Santiago S.A.', '2014-05-01 2021-04-30', 'Deputy IT and Controller Manager', 'Public Transportation, IT, Contracts, Financial Valuation',''),
+  createData('Latam Airlines S.A.', '2012-06-01 2014-02-28', 'Consultant', 'Air Transportation, Optimization, Programming, Scheduling',''),
 ];
 
 function Experiencia() {
   return (
-
+<>
+<h4>Work Experience</h4>
     <TableContainer component={Paper}>
       <Table sx={{ minWidth: 650 }} aria-label="simple table">
         <TableHead sx={{backgroundColor:'black'}}>
@@ -58,6 +59,7 @@ function Experiencia() {
         </TableBody>
       </Table>
     </TableContainer>
+    </>
   );
 }
 
