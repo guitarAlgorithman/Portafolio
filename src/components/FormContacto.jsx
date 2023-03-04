@@ -10,7 +10,8 @@ function FormContacto() {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs.init("8FBVW-xfYDvAPkBul");
+
+    emailjs.init(import.meta.env.VITE_CLIENT_EMAIL);
     emailjs
       .sendForm(
         "service_ari3tzm",
