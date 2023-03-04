@@ -27,7 +27,7 @@ function ControlledCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src='../../images/restaurant.png'
+          src={'../../images/restaurant.png'}
           alt="Restaurant Example"
         />
         <Carousel.Caption className='slide_help'>
@@ -40,7 +40,7 @@ function ControlledCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="../../images/dashboard.png"
+          src={'../../images/dashboard.png'}
           alt="Dashboard for Finances - Example"
         />
         <Carousel.Caption className='slide_help'>
@@ -52,7 +52,7 @@ function ControlledCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="../../images/sentiment.png"
+          src={'../../images/sentiment.png'}
           alt="Dashboard"
         />
 
@@ -66,7 +66,7 @@ function ControlledCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="../../images/crud.png"
+          src={'../../images/crud.png'}
           alt="Crud"
         />
 
@@ -81,7 +81,7 @@ function ControlledCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="../../images/landing.png"
+          src={'../../images/landing.png'}
           alt="Landing"
         />
 
@@ -98,7 +98,7 @@ function ControlledCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="../../images/paper.png"
+          src={'../../images/paper.png'}
           alt="Landing"
         />
 
