@@ -2,8 +2,10 @@ import React, { FC, ReactElement } from "react";
 import { Box, Container, Grid, Typography } from "@mui/material";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import "./Footer.css"
 export const Footer: FC = (): ReactElement => {
   return (
+    <div className="footerAux">
     <Box
       sx={{
         width: "100%",
@@ -33,6 +35,7 @@ export const Footer: FC = (): ReactElement => {
         </Grid>
       </Container>
     </Box>
+    </div>
   );
 };
 

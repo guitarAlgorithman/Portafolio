@@ -105,7 +105,7 @@ function ControlledCarousel() {
         <Carousel.Caption className='slide_help'>
           <h3>Optimization Intenger Programming Model</h3>
           <p>
-            Optimization project implemented (paper on progress)
+            Optimization Scheduling implemented (paper on progress)
           </p>
         </Carousel.Caption>
       </Carousel.Item>

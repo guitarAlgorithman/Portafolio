@@ -10,12 +10,14 @@ import ProfesionalStudies from "./ProfesionalStudies";
 import Datos from "./Datos";
 import Portafolio from "./Portafolio";
 import Footer from "./Footer";
+import Header from "./Header";
 
 
 function CV() {
 
   return (
     <>
+    <Header/>
     <div style={{ width: "100%" }}>
       <Box
         sx={{
