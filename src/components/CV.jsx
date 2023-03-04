@@ -8,6 +8,7 @@ import Imagen from "./Imagen";
 import Resumen from "./Resumen";
 import ProfesionalStudies from "./ProfesionalStudies";
 import Datos from "./Datos";
+import Portafolio from "./Portafolio";
 
 
 function CV() {
@@ -37,6 +38,7 @@ function CV() {
 
       <Resumen/>
       <Experiencia />
+      <Portafolio/>
       </Box>
 
     </div>
