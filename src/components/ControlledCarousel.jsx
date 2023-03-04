@@ -13,7 +13,7 @@ function ControlledCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://i.pinimg.com/236x/57/39/91/57399153da127ac6fe1d88512443bf3f.jpg"
+          src="../../images/front.png"
           alt="Ecommerce Site example"
         />
         <Carousel.Caption>
@@ -25,7 +25,7 @@ function ControlledCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://i.pinimg.com/236x/57/39/91/57399153da127ac6fe1d88512443bf3f.jpg"
+          src="../../images/restaurant.png"
           alt="Restaurant Example"
         />
         <Carousel.Caption>
@@ -34,10 +34,23 @@ function ControlledCarousel() {
         </Carousel.Caption>
       </Carousel.Item>
 
+
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Second slide&bg=282c34"
+          src="../../images/dashboard.png"
+          alt="Dashboard for Finances - Example"
+        />
+        <Carousel.Caption>
+          <h3>Dashboard</h3>
+          <p>Apex Charts and Tensorflow in Javascript</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="../../images/sentiment.png"
           alt="Dashboard"
         />
 
@@ -46,32 +59,34 @@ function ControlledCarousel() {
           <p>API for TextMining using Fast API in Python</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Second slide&bg=282c34"
-          alt="Dashboard"
-        />
-
-        <Carousel.Caption>
-          <h3>Pure Javascript Site</h3>
-          <p>Dashboard using Javascript and libraries like Apex Charts and Tensorflow.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-
 
 
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=20232a"
-          alt="Third slide"
+          src="../../images/crud.png"
+          alt="Crud"
         />
 
         <Carousel.Caption>
           <h3>Crud Javascript</h3>
           <p>
             Simple Javascript Crud
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="../../images/landing.png"
+          alt="Landing"
+        />
+
+        <Carousel.Caption>
+          <h3>Simple Landing Page</h3>
+          <p>
+            Lading Page Example
           </p>
         </Carousel.Caption>
       </Carousel.Item>
