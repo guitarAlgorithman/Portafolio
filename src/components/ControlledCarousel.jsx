@@ -13,7 +13,7 @@ function ControlledCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="../../images/front.png"
+          src={'../../images/front.png'}
           alt="Ecommerce Site example"
         />
         <Carousel.Caption>
