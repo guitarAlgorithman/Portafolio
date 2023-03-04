@@ -27,7 +27,7 @@ function ControlledCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="../../images/restaurant.png"
+          src='../../images/restaurant.png'
           alt="Restaurant Example"
         />
         <Carousel.Caption className='slide_help'>
