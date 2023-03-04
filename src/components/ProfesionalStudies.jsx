@@ -1,8 +1,9 @@
+import { Box } from "@mui/system";
 import React from "react";
 
 function ProfesionalStudies() {
   return (
-    <div>
+    <Box sx={{backgroundColor:'whitesmoke', margin:'5%'}}>
       <h4>Education</h4>
       <table align="center">
         <tr align="left">Industrial Civil Engineer - UDP</tr>
@@ -11,8 +12,9 @@ function ProfesionalStudies() {
         <tr align="left">Financial and accouting management Diploma - UAI</tr>
         <tr align="left">Agile Project Management Diploma - EClass</tr>
         <tr align="left">Personal Training- CEFI Chile</tr>
+        <tr> </tr>
       </table>
-    </div>
+    </Box>
   );
 }
 

@@ -6,6 +6,7 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
+import { Box } from '@mui/system';
 
 function createData(
   company: string,
@@ -26,7 +27,7 @@ const rows = [
 
 function Experiencia() {
   return (
-<>
+<Box sx={{m:"5%"}}>
 <h4>Work Experience</h4>
     <TableContainer component={Paper}>
       <Table sx={{ minWidth: 650 }} aria-label="simple table">
@@ -59,7 +60,7 @@ function Experiencia() {
         </TableBody>
       </Table>
     </TableContainer>
-    </>
+    </Box>
   );
 }
 

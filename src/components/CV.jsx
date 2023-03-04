@@ -9,11 +9,13 @@ import Resumen from "./Resumen";
 import ProfesionalStudies from "./ProfesionalStudies";
 import Datos from "./Datos";
 import Portafolio from "./Portafolio";
+import Footer from "./Footer";
 
 
 function CV() {
 
   return (
+    <>
     <div style={{ width: "100%" }}>
       <Box
         sx={{
@@ -40,8 +42,10 @@ function CV() {
       <Experiencia />
       <Portafolio/>
       </Box>
-
+      
     </div>
+    <Footer/>
+    </>
   );
 }
 

@@ -1,7 +1,8 @@
+import { Box } from '@mui/system'
 import React from 'react'
 
 function Datos() {
-  return (<>
+  return (<Box sx={{backgroundColor:'whitesmoke', margin:'5%'}}>
   <h4>Personal Data</h4>
 <table align="center">
   <tr>
@@ -23,7 +24,7 @@ function Datos() {
   </tr>
   
 </table>
-</>
+</Box>
   )
 }
 

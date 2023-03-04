@@ -1,16 +1,16 @@
-import Carousel from "react-bootstrap/Carousel";
+import { Box } from "@mui/system";
 import React, { useState } from "react";
 import ControlledCarousel from "./ControlledCarousel";
 
-
 function Portafolio() {
   return (
-    <div>
+    <Box sx={{ mt: '5%' }}>
       <h4>Project Portfolio (Only Public ones)</h4>
+      <Box sx={{ m: '2%' }}>
+        <ControlledCarousel />　
+        </Box>
+      </Box>
 
-      <ControlledCarousel/>　
-      
-    </div>
   );
 }
 
