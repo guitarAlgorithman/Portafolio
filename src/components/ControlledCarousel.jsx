@@ -18,8 +18,10 @@ function ControlledCarousel() {
         />
         <Carousel.Caption>
         <div className='slide_help'>
+          <a href="https://guitaralgorithman.github.io/Ecommerce_frontend/">
           <h3>Ecommerce Site Example</h3>
           <p>MERN Framework</p>
+          </a>
         </div>
         </Carousel.Caption>
       </Carousel.Item>
@@ -31,8 +33,10 @@ function ControlledCarousel() {
           alt="Restaurant Example"
         />
         <Carousel.Caption className='slide_help'>
+          <a href="https://jocular-longma-6fa945.netlify.app/">
           <h3>Commercial Site Example</h3>
           <p>React JS + Firebase</p>
+          </a>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -44,8 +48,10 @@ function ControlledCarousel() {
           alt="Dashboard for Finances - Example"
         />
         <Carousel.Caption className='slide_help'>
+          <a href="https://guitaralgorithman.github.io/proyecto_3_dashboard/">
           <h3>Dashboard</h3>
           <p>Apex Charts and Tensorflow in Javascript</p>
+          </a>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -57,8 +63,10 @@ function ControlledCarousel() {
         />
 
         <Carousel.Caption className='slide_help'>
+          <a href="https://github.com/guitarAlgorithman/sentimentAnalysis">
           <h3>Fast API - Text Mining TensorFlow</h3>
           <p>API for TextMining using Fast API in Python</p>
+          </a>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -71,10 +79,12 @@ function ControlledCarousel() {
         />
 
         <Carousel.Caption className='slide_help'>
+        <a href="https://guitaralgorithman.github.io/Projecto-2-CRUD/">
           <h3>Crud Javascript</h3>
           <p>
             Simple Javascript Crud
           </p>
+          </a>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -86,10 +96,12 @@ function ControlledCarousel() {
         />
 
         <Carousel.Caption className='slide_help'>
+          <a href="https://guitaralgorithman.github.io/Proyecto1_LandingPage/">
           <h3>Simple Landing Page</h3>
           <p>
             Lading Page Example
           </p>
+          </a>
         </Carousel.Caption>
       </Carousel.Item>
 
