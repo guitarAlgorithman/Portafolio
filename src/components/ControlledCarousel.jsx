@@ -13,7 +13,7 @@ function ControlledCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={'../../images/front.png'}
+          src={'https://i.postimg.cc/cZQYyxqm/front.png'}
           alt="Ecommerce Site example"
         />
         <Carousel.Caption>
@@ -27,7 +27,7 @@ function ControlledCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={'../../images/restaurant.png'}
+          src={'https://i.postimg.cc/Cw6nHdDF/restaurant.png'}
           alt="Restaurant Example"
         />
         <Carousel.Caption className='slide_help'>
@@ -40,7 +40,7 @@ function ControlledCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={'../../images/dashboard.png'}
+          src={'https://i.postimg.cc/R44tvk4z/dashboard.png'}
           alt="Dashboard for Finances - Example"
         />
         <Carousel.Caption className='slide_help'>
@@ -52,7 +52,7 @@ function ControlledCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={'../../images/sentiment.png'}
+          src={'https://i.postimg.cc/sgtXFQ97/sentiment.png'}
           alt="Dashboard"
         />
 
@@ -66,7 +66,7 @@ function ControlledCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={'../../images/crud.png'}
+          src={'https://i.postimg.cc/sxVxnkPL/crud.png'}
           alt="Crud"
         />
 
@@ -81,7 +81,7 @@ function ControlledCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={'../../images/landing.png'}
+          src={'https://i.postimg.cc/R4dHhgZJ/landing.png'}
           alt="Landing"
         />
 
@@ -98,7 +98,7 @@ function ControlledCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={'../../images/paper.png'}
+          src={'https://i.postimg.cc/kMcBV5qP/paper.png'}
           alt="Landing"
         />
 
