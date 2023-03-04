@@ -12,7 +12,7 @@ function Header() {
       />
       <Navbar.Collapse id="navbarScroll">
         <Nav>
-          <NavLink eventKey="1" as={Link} to="/">
+          <NavLink eventKey="1" as={Link} to="/Portafolio">
             Home
           </NavLink>          
           <NavLink eventKey="2" as={Link} to="/contacto">

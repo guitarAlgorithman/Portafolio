@@ -22,7 +22,7 @@ function FormContacto() {
         (result) => {
           console.log(result.text);
           alert("mensaje enviado");
-          navigate("/");
+          navigate("/Portafolio");
         },
         (error) => {
           console.log(error.text);
